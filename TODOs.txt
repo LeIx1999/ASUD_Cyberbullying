@@ -1,0 +1,12 @@
+Data Understanding
+	1. Verteilung der Zielvariable - Jannis
+	2. Durchschnittliche Anzahl an Wörter pro Nachrichtentyp - Jannis
+	3. Durchschnittliche Länge der Wörter - Stefan
+	4. Anzahl der UpperCase Buchstaben in Spam im Vergleich zu Ham - Jannis
+	5. Anzahl der komplett groß geschriebenen Wörter - Philipp
+	6. Rechtschreibfehler betrachten - TODO
+	7. Sonderzeichen pro Nachrichtentyp oder auch mehrere hintereinander - TODO
+	8. Wordcloud, um zu zeigen, welche Wörter besonders oft vorkommen - Jannis
+	9. Wörter clustern - TODO
+	10. Links in Nachrichten
+	11. Anzahl der Zahlen 
