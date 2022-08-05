@@ -49,6 +49,6 @@ classification_report(data_test["granulareKlassifikation"], rfc_predictions)
 print(RF_functions.compare_value_counts(rfc_predictions, data_test["granulareKlassifikation"]))
 
 # save the model as joblib, replacement of pickle to save to disk
-dump(rfc, "model.joblib")
+# dump(rfc, "model.joblib")
 
 
