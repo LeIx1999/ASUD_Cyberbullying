@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, render_template
 from sentence_transformers import SentenceTransformer
 from joblib import load
-from sklearn.ensemble import RandomForestClassifier
+
 app = Flask(__name__)
 
 @app.route('/')
