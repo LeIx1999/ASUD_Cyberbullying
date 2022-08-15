@@ -7,7 +7,7 @@ from sklearn.model_selection import GridSearchCV
 from joblib import dump
 
 # read in data
-data = pd.read_csv("/Users/jannis/ASUD_Cyberbullying/Notebooks/data/prepared_dataframe.csv")
+data = pd.read_csv("/Users/jannis/ASUD_Cyberbullying /Notebooks/data/prepared_dataframe.csv")
 
 # split data in training and test
 data_train = data.sample(round(0.75 * len(data)), random_state = 1).reset_index()
