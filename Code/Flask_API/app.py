@@ -53,7 +53,7 @@ def clean_tweet(tweet: str):
             word = word.replace(key, value)
         if not "@" in word and not "#" in word:
             tweet_list.append(word)
-    return " ".join(tweet_list)
+    return " ".join(tweet_list).lower()
 
 
 
