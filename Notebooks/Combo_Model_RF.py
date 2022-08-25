@@ -217,4 +217,4 @@ def make_predictions(tweet):
 # Evaluation of combo model
 combo_preds = [make_predictions(x) for x in data_test.tweets_clean]
 
-calc_accuracy(combo_preds, data_test["granulareKlassifikation"])
+print(calc_accuracy(combo_preds, data_test["granulareKlassifikation"]))
